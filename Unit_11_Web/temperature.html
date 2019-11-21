@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Web Design</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <body style="background-color: blue">
+        <nav class="navbar navbar-dark" style="background-color: #000000;padding-right: 25px;padding-left: 25px;">
+            <div class="row .col-md-1">
+                <a class="navbar-brand" href="Home.html">Website Weather Project</a>
+            </div>
+
+
+
+
+
+            <!-- Navbar content -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-ex="true">
+                    Please Select Different Views
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                    <a class="dropdown-item" href="comparison.html">Comparison</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="wind.html">Wind</a>
+                    <a class="dropdown-item" href="temperature.html">Temperatures</a>
+                    <a class="dropdown-item" href="vizualizations.html">Visualizations</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="https://www.weather.gov/">National Weather Service</a>
+                </div>
+            </div>
+
+
+        </nav>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            .fit {
+                /* set relative picture size */
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            .center {
+                display: block;
+                margin: auto;
+            }
+        </style>
+        </head>
+        <h3 style="padding-top: 25px;text-align: center;">Max Temps By Latitude</h3>
+        <article style="background-color:white;padding-right: 25px;padding-left: 25px;">
+            <div class="row">
+                <p><img src="Images\temp_scatter.png" style="float: left;" height="500px"
+                        width="750px"><br><br><br>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                    Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum..</p>
+            </div>
+        </article>
+    </body>
+
+    <footer style="background-color: blue;justify-content: center;padding-bottom: 10px;">
+        <hr style="border-top: 5px solid black;margin-top: 0px;margin-bottom: 0px;">
+        <h6 align="center">SMU Data Science Bootcamp</h6>
+        <h6 align="center" style="margin-bottom: 0px;">Mike Hughes</h6>
+        <h6 align="center" style="margin-bottom: 0px;">Fall 2019 Cohort </h6>
+    </footer>
